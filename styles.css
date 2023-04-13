@@ -109,6 +109,7 @@ header {
     font-size: medium;
     font-weight: bold;
     color: #F9FAF8;
+    background-color: #3882F6;
     
 }
 
@@ -166,54 +167,40 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-button, .call-to-action {
-    background-color: #3882F6;
-}
-
-.information-header {
-    font-weight: 800;
-    font-size: 36px;
-    color: #1F2937;
-}
+/* || QUOTE */
 
 .quote {
     background-color: #E5E7EB;
 }
 
+.be-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    margin-top: 100px;
+    margin-bottom: 63px;
+
+    width: 85%;
+}
+
 .quote-text {
+    margin: 0;
+    margin-bottom: 16px;
+
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     color: #1F2937;
+}
+
+.quote-author {
+    margin: 0;
+
+    text-align: right;
+    font-size: large;
 }
 
 
